@@ -1,0 +1,40 @@
+body {
+  background-color: #fddf7f; }
+  body .flexcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    body .flexcontainer .cupplan {
+      font-family: 'Ropa Sans', sans-serif;
+      background-color: white;
+      text-align: center;
+      padding: 20px 50px;
+      max-width: 360px;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      margin: 15px;
+      border-radius: 5px; }
+      body .flexcontainer .cupplan h1 {
+        color: #02995b;
+        font-size: 70px; }
+      body .flexcontainer .cupplan h2 {
+        font-size: 56px; }
+      body .flexcontainer .cupplan p {
+        font-size: 20px; }
+    body .flexcontainer .gold {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+      padding: 40px 50px; }
+    body .flexcontainer .silver {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2; }

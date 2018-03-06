@@ -1,0 +1,39 @@
+body {
+    background-color: #fddf7f;
+    
+}
+
+.flexcontainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        .cupplan {
+            font-family: 'Ropa Sans', sans-serif;
+            background-color: white;
+            text-align: center;
+            padding: 20px 50px;
+            max-width: 360px;
+            flex-grow: 1;
+            margin: 15px;
+            border-radius: 5px;
+            h1 {
+                color: #02995b;
+                font-size: 70px;
+            }
+            h2 {
+                font-size: 56px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+        .gold {
+            order: 1;
+            padding: 40px 50px;
+        }
+
+        .silver {
+            order: 2;
+        }
+    }
